@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #28a745; /* Env-friendly green color */
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.bg-success {
+  background-color: #28a745; /* Env-friendly green color */
+}
+
+.text-white {
+  color: #fff;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+#busStopInfo {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+#busStopInfo p {
+  margin-bottom: 10px;
+}

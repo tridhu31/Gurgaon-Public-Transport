@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Gurgaon Bus Service</title>
+</head>
+<body>
+  <header class="bg-success text-white p-5">
+    <div class="container">
+      <h1>Welcome to Gurgaon Bus Service</h1>
+      <p>Our goal is to provide efficient and reliable bus services in Gurgaon for the betterment of the environment.</p>
+    </div>
+  </header>
+
+  <main class="container mt-5">
+    <section>
+      <h2>About Our Goal</h2>
+      <p>
+        Our goal is to create a public transportation system in Gurgaon that not only improves
+        accessibility but also significantly reduces pollution. By encouraging the use of buses and
+        promoting e-buses, we aim to contribute to a cleaner and greener environment.
+      </p>
+      <p>
+        Electric buses (e-buses) are a vital part of this initiative. They produce zero tailpipe emissions,
+        reduce noise pollution, and pave the way for a sustainable future by utilizing clean energy sources.
+      </p>
+    </section>
+
+    <section>
+      <h2>Find the Nearest Bus Stop</h2>
+      <form id="busStopForm">
+        <label for="location">
+          Your Location:
+          <a href="https://www.google.com/maps" target="_blank">(Open in Google Maps)</a>
+        </label>
+        <input type="text" id="location" name="location" placeholder="Enter your location" required>
+
+        <button type="submit" class="btn btn-primary">Find Bus Stop</button>
+      </form>
+    </section>
+
+    <section id="busStopInfo" style="display: none;">
+      <h2>Bus Stop Information</h2>
+      <p id="busStopName"></p>
+      <p id="busRoutes"></p>
+    </section>
+  </main>
+
+  <footer class="bg-light text-center p-4">
+    <p>&copy; 2023 Gurgaon Bus Service. All rights reserved.</p>
+  </footer>
+</body>
+</html>
